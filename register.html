@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        /* General styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('./img/shadyforest.jpg') no-repeat center center/cover;
+        }
+        .form-container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 40px;
+            width: 350px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        h1 {
+            text-align: center;
+            color: blue;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .form-container input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 2px solid darkgreen;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        .form-container input[type="text"],
+        .form-container input[type="email"],
+        .form-container input[type="password"] {
+            background-color: rgba(255, 255, 255, 0.2);
+            color:  black;
+        }
+        .form-container input[type="submit"] {
+            background-color: #4caf50;
+            color: black;
+            font-weight: bolder;
+            border: 2px solid ;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .form-container input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        
+        .form-container input::placeholder{
+            color: rgb(17, 14, 14);
+        }
+
+        a {
+            /* color: #fff; */
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Registration Form</h1>
+        <form action="" method="post">
+            <input type="text" name="fullname" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+            <input type="submit" value="REGISTER">
+        </form>
+    </div>
+
+</body>
+</html>

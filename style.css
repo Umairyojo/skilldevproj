@@ -1,0 +1,75 @@
+body{
+    background:url("./img/background.jpg")no-repeat center center/cover;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 400px;
+    /* border: 1px solid black; */
+    align-items:center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -5px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    position: relative;
+}
+.form h1{
+    color: #fff;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    margin: 34px;
+}
+.box{
+    padding: 10px;
+    margin:20px;
+    width: 65%;
+    border:none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: insert -3px -3px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+}
+
+#submit{
+    padding: 10px 20px;
+    margin-top: 34px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+   color: white;
+   border: none;
+   outline: none;
+   border-radius: 20px;
+   font-size: 1rem;
+   margin-bottom: 20px;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    color:#fff
+}
+
+::placeholder{
+    color: white;
+    opacity: 0.7;
+}
+
+.form label{
+    color: #fff;
+}
+
+.form a{
+    color: dodgerblue;
+}
+
+.rem{
+    text-align: left;
+    position: absolute;
+    bottom: 168px;
+    left: 68px;
+}

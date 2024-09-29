@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbarsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #BBF733;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    /* border-radius: 8px; */
+    border-end-end-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.navbarsection img{
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.navbarsection .links *{
+    margin: 30px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.navbarsection .links nav a{
+    text-decoration: underline;
+    background-color: #a9e817;
+    color: black;
+    font-weight: bolder;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+/* -------------------------------cards---------------------- */
+center{
+    margin: 20px;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;}
+
+.histctr{
+    border: 2px solid burlywood;
+    padding: 10px;
+    padding-bottom: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 5%;
+    margin-bottom: 30px;
+}
+
+.histctr *{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+    padding: 20px;
+}
+
+.histctr h6{
+    font-size: larger;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 8px;
+}
+
+.history .hisimg img{
+    border-radius: 15%;
+    float: left;
+}
+
+.history .histxt{
+    width: 100%;
+    text-align: justify;
+    font-size: larger;
+}
+
+.history .histxt p{
+    margin-bottom: 0px;
+}
+
+/* experiment */
+body{
+    /* background-image: url(./img/);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
